@@ -25,8 +25,9 @@
   },
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "calories":53,
     "name": "Apple",
-    "price": 52,
+    "price": 220,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3972,
@@ -53,7 +54,7 @@
     "stock": 11,
     "ratings": 4,
     "ratingsCount": 799,
-    "img": "https://img.freepik.com/free-photo/cut-orange-parts-whole-fruit-with-green-leaves_74855-5381.jpg?t=st=1648285226~exp=1648285826~hmac=53406f0b7e8c38fedc2c664fd0f01b96b8fff8b7ced315d9458cc23d623cbbc6&w=996.jpg",
+    "img": "https://p4.wallpaperbetter.com/wallpaper/663/689/129/oranges-three-leaves-white-background-wallpaper-preview.jpg",
     "shipping": 49,
     "quantity": 0
   },
@@ -65,7 +66,7 @@
     "stock": 19,
     "ratings": 3,
     "ratingsCount": 4372,
-    "img": "https://img.freepik.com/free-photo/sweet-dates-out-wooden-bowl-marble-surface_114579-73230.jpg?t=st=1648285278~exp=1648285878~hmac=25412f29ad88e1c05c3bdd77c87d701b1329307178d5ed5369385a519e819ab7&w=996.jpg",
+    "img": "https://previews.123rf.com/images/dionisvera/dionisvera1609/dionisvera160900036/62513709-dried-dates-on-a-white-background.jpg?fj=1.jpg",
     "shipping": 19,
     "quantity": 0
   },
