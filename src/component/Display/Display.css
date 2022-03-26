@@ -2,6 +2,8 @@
     border: 1px solid silver;
     position: relative;
     border-radius: 4px;
+    width:300px;
+
 }
 
 .display img{

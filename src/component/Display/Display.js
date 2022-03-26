@@ -13,10 +13,10 @@ const Display = (props) => {
                 <img src={img} alt="" />
                 <h2>Name: {name}</h2>
                 <h2>Calories: {calories}</h2>
-                <h4>Price: {price}</h4>
+                <h4>Price: {price} <span style={{fontSize:'18px',fontWeight:'bolder'}}>৳</span></h4>
                 <h5>Total Rating: {ratingsCount}</h5>
             </div>
-            <button className='btn' onClick={()=>{addToCart(props)}}>Add To Cart
+            <button className='btn' onClick={()=>{addToCart(props.fruit)}}>Add To Cart
             <FontAwesomeIcon style={{paddingLeft:'10px'}}  icon={faCartShopping}/>
             </button>
         </div>

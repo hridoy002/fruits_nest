@@ -1,21 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import Display from '../Display/Display';
 import './Collection.css'
+import '../AddToCart/AddToCart'
+import AddToCart from '../AddToCart/AddToCart';
 
 const Collection = () => {
     const [fruits,setFruits] =useState([]);
+    const [cart , setCart] = useState([]);
+    console.log(cart)
+    const addToCart = (fruit) =>{
+        const newCart = [...cart,fruit]
+        setCart(newCart);
+    }
+   
     useEffect(()=>{
         fetch('fruits.json')
         .then(res => res.json())
         .then(data => setFruits(data))
     },[])
 
-    const [cart , setCart] = useState([]);
-    const addToCart = (fruit) =>{
-        const newCart =[...cart, fruit]
-        setCart(newCart)
-        console.log(cart)
-    }
+    
     return (
         <div className='collection'>
             <div className='fruitsCart-container'>
@@ -24,7 +28,10 @@ const Collection = () => {
                 }
             </div>
             <div className="addCart-list">
-                <h3>{}</h3>
+                <h1>Add To Cart List</h1>
+                {cart.map(item => <AddToCart addItem={item}></AddToCart>)}
+
+                    <button className='chooseBtn'>Choose Item</button>
             </div>
             
         </div>
