@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Display from '../Display/Display';
+import './Collection.css'
 
 const Collection = () => {
     const [fruits,setFruits] =useState([]);
@@ -8,10 +10,16 @@ const Collection = () => {
         .then(data => setFruits(data))
     },[])
     return (
-        <div>
-            {
-                fruits.map(fruit => <img style={{width:'200px'}} src={fruit.img} alt='' />)
-            }
+        <div className='collection'>
+            <div className='fruitsCart-container'>
+                {
+                    fruits.map(fruit => <Display key={fruit.id} fruit={fruit}></Display>)
+                }
+            </div>
+            <div className="addCart-list">
+                <h3>Add To Cart List</h3>
+            </div>
+            
         </div>
     );
 };
