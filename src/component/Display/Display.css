@@ -29,3 +29,38 @@
 }
 
 
+/* responsive mobile  */
+
+@media (max-width: 576px){
+    .display{
+        border: 1px solid silver;
+        position: relative;
+        border-radius: 4px;
+        width:350px;
+        height: 450px;
+    
+    }
+    
+    .display img{
+        width: 280px;
+    }
+    
+    .display-info{
+    
+        margin-bottom: 30px;
+    }
+    
+    .btn{
+        border: none;
+        background-color: rgb(10, 11, 86);
+        color: white;
+        font-size: large;
+        padding: 8px 15px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 2px;
+        right: 92px;
+    }    
+}
+
+

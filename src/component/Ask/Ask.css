@@ -1,0 +1,15 @@
+.ask{
+    background-color: rgb(252, 158, 158);
+    margin-top: 30px;
+    width: 100%;
+}
+
+.question-ask{
+    text-align: left;
+    padding: 20px;
+}
+
+.question-ask p{
+    font-size: 18px;
+    font-weight:400;
+}

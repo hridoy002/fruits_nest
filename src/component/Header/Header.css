@@ -32,3 +32,44 @@
 .navbar a:hover{
     color: orangered;
 }
+
+
+/* responsive mobile  */
+
+@media (max-width: 576px){
+    .navbar{
+        background-color: rgb(8, 187, 218);
+        display: flex;
+         flex-direction: column;
+        /* align-items: center;
+        justify-content: space-between; */
+        /* padding-left: 140px;
+        padding-right: 140px; */
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+    .navbar img{
+        width: 100px;
+    }
+    
+    .logo-name{
+        font-family: 'Inspiration', cursive;
+        font-size: 20px;
+        font-weight:600;
+        display: block;
+        padding-bottom: 15px;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .navbar a:hover{
+        color: orangered;
+    }
+}

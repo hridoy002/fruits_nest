@@ -30,11 +30,24 @@
 responsive for mobile
 ----------- --------*/
 @media (max-width: 576px) { 
+    .collection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .addCart-list{
+        width:100%;
+        background-color: rgba(181, 218, 239, 0.997);
+        position: static;
+        margin-bottom: 20px;
+    }
+
     .fruitsCart-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin-left: 20px;
         gap: 30px;
+        order: 2;
     }
     
 }
