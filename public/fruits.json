@@ -1,0 +1,120 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Mango",
+    "calories": 99,
+    "price": 420,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "https://img.freepik.com/free-photo/mango-green-isolated-white-background_1205-1214.jpg?t=st=1648284909~exp=1648285509~hmac=d9af774afa90000fa5e272490701225e30e6e960560d7568c389aa2a6ef96019&w=996.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "name": "Water Melon",
+    "calories":46,
+    "price": 196,
+    "stock": 19,
+    "ratings": 5,
+    "ratingsCount": 4355,
+    "img": "https://img.freepik.com/free-photo/fresh-watermelon_1339-784.jpg?t=st=1648284714~exp=1648285314~hmac=d9e68855dbbfc87bdfd86c06390e433a2f254dd844d3e0d60adbb85a84954270&w=996.jpg",
+    "shipping": 14,
+    "quantity": 0
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "name": "Apple",
+    "price": 52,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3972,
+    "img": "https://img.freepik.com/free-photo/red-apple-with-green-leaf-white-background_1232-3290.jpg?2&t=st=1648285043~exp=1648285643~hmac=d8acae8639a17133d065875fe15a6a3359ec2a9d76ab70716fbf4f25f947216d&w=996.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "name": "Grapes",
+    "calories":62,
+    "price": 229,
+    "stock": 10,
+    "ratings": 5,
+    "ratingsCount": 1764,
+    "img": "https://img.freepik.com/free-photo/green-grape_1203-6913.jpg?t=st=1648285103~exp=1648285703~hmac=39f436ecb3c75d0b0bd4e1fd6e9b9217d7dedf445de57164e73805fa0626410c&w=996.jpg",
+    "shipping": 32,
+    "quantity": 0
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "name": "Orange",
+    "price": 47,
+    "stock": 11,
+    "ratings": 4,
+    "ratingsCount": 799,
+    "img": "https://img.freepik.com/free-photo/cut-orange-parts-whole-fruit-with-green-leaves_74855-5381.jpg?t=st=1648285226~exp=1648285826~hmac=53406f0b7e8c38fedc2c664fd0f01b96b8fff8b7ced315d9458cc23d623cbbc6&w=996.jpg",
+    "shipping": 49,
+    "quantity": 0
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "name": "Dates",
+    "calories":75,
+    "price": 138,
+    "stock": 19,
+    "ratings": 3,
+    "ratingsCount": 4372,
+    "img": "https://img.freepik.com/free-photo/sweet-dates-out-wooden-bowl-marble-surface_114579-73230.jpg?t=st=1648285278~exp=1648285878~hmac=25412f29ad88e1c05c3bdd77c87d701b1329307178d5ed5369385a519e819ab7&w=996.jpg",
+    "shipping": 19,
+    "quantity": 0
+  },
+  {
+    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "calories":45.6,
+    "name": "Green Coconut",
+    "price": 226,
+    "stock": 1,
+    "ratings": 4,
+    "ratingsCount": 2870,
+    "img": "https://as2.ftcdn.net/v2/jpg/01/87/72/21/1000_F_187722188_rKQfjW6g5sm0ZCt8EgXVpDx2Kg6yn53U.jpg",
+    "shipping": 15,
+    "quantity": 0
+  },
+  {
+    "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+    "name": "Lichi",
+    "calories":66,
+    "price": 220,
+    "stock": 4,
+    "ratings": 5,
+    "ratingsCount": 1976,
+    "img": "https://img.freepik.com/free-photo/lychee-fruit-photography_1150-13684.jpg?t=st=1648285605~exp=1648286205~hmac=7664fb0d8fcf94a146abd784efda3a9814ab3ff6568e88e8290e2606f1525692&w=996.jpg",
+    "shipping": 46,
+    "quantity": 0
+  },
+  {
+    "id": "ac44095f-230e-4502-8816-dea3eaae8320",
+    "name": "Jack Fruit",
+    "calories":155,
+    "price": 437,
+    "stock": 1,
+    "ratings": 4,
+    "ratingsCount": 565,
+    "img": "https://as1.ftcdn.net/v2/jpg/00/70/69/36/1000_F_70693610_XbZumuU4rDvikypcLLBOoIyX4NbhMe0k.jpg",
+    "shipping": 36,
+    "quantity": 0
+  },
+  {
+    "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
+    "name": "Banana",
+    "calories":95,
+    "price": 70,
+    "stock": 15,
+    "ratings": 5,
+    "ratingsCount": 3702,
+    "img": "https://img.freepik.com/free-photo/yellow-banana-fruit_1203-7489.jpg?t=st=1648286305~exp=1648286905~hmac=d910cbf340760d8a46b72a898446e8bd20a0f51da8f842f9c80af0cb1e6fff71&w=996.jpg",
+    "shipping": 29,
+    "quantity": 0
+  }
+]
